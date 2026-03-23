@@ -5,7 +5,7 @@ import { defineConfig, loadEnv } from "vite";
 
 export default defineConfig(({ mode }) => {
   return {
-    base: "/",
+    base: "/Sky8/", // <-- This must match your repo name!
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
